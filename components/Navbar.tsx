@@ -21,7 +21,7 @@ export default function Navbar() {
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuLink
-                render={<Link href="/" />}
+                render={<Link href="/?play=1" />}
                 className={`${navigationMenuTriggerStyle()}`}
               >
                 Play!
